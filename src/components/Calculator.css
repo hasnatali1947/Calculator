@@ -25,6 +25,9 @@ body {
 }
 
 .input {
+  display: flex;
+  align-items: center;
+  justify-content: end;
   height: 10vh;
   background-color: rgb(161, 153, 153);
   width: 100%;
@@ -33,7 +36,6 @@ body {
   font-size: 27px;
   text-indent: 5px;
   color: #fff;
-  text-align: right;
 }
 
 .input::-webkit-outer-spin-button,
