@@ -104,8 +104,6 @@ Get a hosting website and give all of the github files
 
 ## 👥 Author <a name="author"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Hasnat khan**
 
 - GitHub: [@hasnatali1947](https://github.com/hasnatali1947)
