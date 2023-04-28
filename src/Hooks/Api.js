@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 const Ninja = () => {
   const [Data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [Error, setError] = useState(false);
 
   const Apikey = 'ZPksXpIQsgVKzO1MVKznag==tuGMl8VvIHOVSCMY';
   const Api = `https://api.api-ninjas.com/v1/jokes?limit=${1}`;
@@ -16,14 +17,19 @@ const Ninja = () => {
       });
       const data = await response.json();
       setData(data);
-      setLoading(false);
     } catch (error) {
-      console.error(error);
+      setError(true);
     }
+    setLoading(false);
   };
   useEffect(() => {
     fitchingApi();
   }, []);
+
+  if (Error || Number(Data) === 0) {
+    return "<p>'something went wrong!'</p>";
+  }
+
   function JokesButton() {
     fitchingApi();
   }
