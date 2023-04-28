@@ -22,16 +22,20 @@ const Ninja = () => {
     }
     setLoading(false);
   };
+
   useEffect(() => {
     fitchingApi();
   }, []);
 
   if (Error || Number(Data) === 0) {
-    return "<p>'something went wrong!'</p>";
+    return 'something went wrong!';
   }
+
+  if (loading) return <div>Loading...</div>;
 
   function JokesButton() {
     fitchingApi();
+    setLoading(true);
   }
 
   return (
