@@ -54,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Not Available]
+- https://hasnatali1947.github.io/Calculator/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
