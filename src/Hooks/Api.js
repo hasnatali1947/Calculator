@@ -50,7 +50,7 @@ const Ninja = () => {
       </div>
 
       <button className="jokesButton" type="button" onClick={JokesButton} disabled={loading}>
-        {loading ? 'loading' : 'Another Jokers'}
+        {loading ? 'loading' : 'Another Joke'}
       </button>
     </section>
   );
