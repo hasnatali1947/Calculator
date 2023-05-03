@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +9,85 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar-container ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid;
+  height: 8vh;
+  list-style: none;
+}
+
+.Math-Mag {
+  font-size: 24px;
+}
+
+.li {
+  display: flex;
+  font-size: 3vh;
+}
+
+.li li {
+  padding: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.li li:hover {
+  scale: 0.95;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin-top: -30vh;
+  font-size: 21px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.top h1 {
+  padding: 20px 0;
+  font-size: 42px;
+}
+
+.bottom {
+  width: 70%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.calculatorPage {
+  display: flex;
+}
+
+.calculator-h2 {
+  font-size: 42px;
 }
 
 .row {
@@ -64,7 +144,6 @@ body {
 }
 
 .Jokes-Section {
-  /* border: 2px solid; */
   margin-top: 20px;
   display: flex;
   align-items: center;
@@ -72,19 +151,29 @@ body {
 }
 
 .jokes {
-  height: 10vh;
-  width: 68vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 80vh;
   border: 2px solid;
   padding: 4px;
   border-radius: 10px;
 }
 
 .jokesButton {
-  height: 5vh;
-  width: 15vh;
+  height: 6vh;
+  width: 17vh;
   background-color: rgb(38, 233, 233);
   margin-top: 20px;
   border: 2px solid rgb(38, 233, 233);
   border-radius: 7px;
   cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+.jokesButton:hover {
+  scale: 0.96;
 }
