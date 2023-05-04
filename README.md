@@ -30,7 +30,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
->  HTML , CSS and React.
+> HTML , CSS and React.
 
 <!-- Features -->
 
@@ -65,7 +65,7 @@ A GitHub | A code editor | A web browser
 
 Install all project dependencies by running the command below
 
-  `$ npm install`
+`$ npm install`
 
 And run `npm start` to launch the project .
 
@@ -73,7 +73,7 @@ And run `npm start` to launch the project .
 
 Clone this repository to your desired folder:
 
-  `git clone https://github.com/hasnatali1947/Calculator/tree/setupReact`
+`git clone https://github.com/hasnatali1947/Calculator/tree/setupReact`
 
 ### Usage
 
