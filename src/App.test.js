@@ -13,9 +13,19 @@ describe('Operate Tests', () => {
     expect(result).toBe('3');
   });
 
+  test('0 + 100 = 100', () => {
+    const result = operate(0, 100, '+');
+    expect(result).toBe('100');
+  });
+
   test('1 - 2 = -1', () => {
     const result = operate(1, 2, '-');
     expect(result).toBe('-1');
+  });
+
+  test('10 - 10 = 0', () => {
+    const result = operate(10, 10, '-');
+    expect(result).toBe('0');
   });
 
   test('2 x 3 = 6', () => {
@@ -23,14 +33,29 @@ describe('Operate Tests', () => {
     expect(result).toBe('6');
   });
 
+  test('0 x 3 = 0', () => {
+    const result = operate(0, 3, 'x');
+    expect(result).toBe('0');
+  });
+
   test('5 % 5 = 0', () => {
     const result = operate(5, 5, '%');
     expect(result).toBe('0');
   });
 
+  test('3 % 2 = 1', () => {
+    const result = operate(3, 2, '%');
+    expect(result).toBe('1');
+  });
+
   test('4 ÷ 5 = 0.8', () => {
     const result = operate(4, 5, '÷');
     expect(result).toBe('0.8');
+  });
+
+  test('0 ÷ 5 = 0', () => {
+    const result = operate(0, 5, '÷');
+    expect(result).toBe('0');
   });
 });
 
@@ -118,30 +143,23 @@ describe('Calculate Test', () => {
 
 describe('Components render Correctly', () => {
   test('App render Correctly', () => {
-    const tree = renderer
-      .create(<App />)
-      .toJSON();
+    const tree = renderer.create(<App />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   test('App render Correctly', () => {
-    const tree = renderer
-      .create(<Home />)
-      .toJSON();
+    const tree = renderer.create(<Home />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   test('jokes render Correctly', () => {
-    const tree = renderer
-      .create(<Jokes />)
-      .toJSON();
+    const tree = renderer.create(<Jokes />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   test('calculatorPage render Correctly', () => {
     const tree = renderer;
-    create(<CalculatorPage />)
-      .toJSON();
+    create(<CalculatorPage />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
