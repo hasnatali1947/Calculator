@@ -7,7 +7,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -31,7 +30,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
->  HTML , CSS and React.
+> HTML , CSS and React.
 
 <!-- Features -->
 
@@ -47,14 +46,6 @@
 - **[Completed updated]**
 - **[buttons]**
 - **[colors]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- https://hasnatali1947.github.io/Calculator/dist/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +65,7 @@ A GitHub | A code editor | A web browser
 
 Install all project dependencies by running the command below
 
-  `$ npm install`
+`$ npm install`
 
 And run `npm start` to launch the project .
 
@@ -82,7 +73,7 @@ And run `npm start` to launch the project .
 
 Clone this repository to your desired folder:
 
-  `git clone https://github.com/hasnatali1947/Calculator/tree/setupReact`
+`git clone https://github.com/hasnatali1947/Calculator/tree/setupReact`
 
 ### Usage
 

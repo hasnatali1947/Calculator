@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App test 1`] = `
+Array [
+  <nav>
+    <div
+      className="navbar-container"
+    >
+      <ul
+        className="navbar"
+      >
+        <div>
+          <h1
+            className="Math-Mag"
+          >
+            Math Magicions
+          </h1>
+        </div>
+        <div
+          className="li"
+        >
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/calculatorPage"
+              onClick={[Function]}
+            >
+              CalculatorPage
+            </a>
+          </li>
+          <li>
+            <a
+              href="/jokes"
+              onClick={[Function]}
+            >
+              Jokes
+            </a>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </nav>,
+  <section
+    className="homepage"
+  >
+    <div
+      className="top"
+    >
+      <h1>
+        Welcome to our page
+      </h1>
+      <p>
+        Welcome to our website, where you can find a simple calculator to make your calculations easy and quick. Our calculator has a user-friendly interface that is easy to use, even if you're not a math expert. It can perform basic arithmetic operations like addition, subtraction, multiplication, and division, as well as more complex calculations like percentages, square roots, and exponents.
+      </p>
+    </div>
+    <div
+      className="bottom"
+    >
+      <p>
+        In addition to our calculator, we also have a collection of inspiring quotes to brighten up your day. These quotes cover a variety of topics such as motivation, success, happiness, and more. We update our quotes regularly, so you can always find fresh inspiration whenever you visit our website.
+      </p>
+    </div>
+  </section>,
+]
+`;
+
+exports[`App test 2`] = `
+<section
+  className="homepage"
+>
+  <div
+    className="top"
+  >
+    <h1>
+      Welcome to our page
+    </h1>
+    <p>
+      Welcome to our website, where you can find a simple calculator to make your calculations easy and quick. Our calculator has a user-friendly interface that is easy to use, even if you're not a math expert. It can perform basic arithmetic operations like addition, subtraction, multiplication, and division, as well as more complex calculations like percentages, square roots, and exponents.
+    </p>
+  </div>
+  <div
+    className="bottom"
+  >
+    <p>
+      In addition to our calculator, we also have a collection of inspiring quotes to brighten up your day. These quotes cover a variety of topics such as motivation, success, happiness, and more. We update our quotes regularly, so you can always find fresh inspiration whenever you visit our website.
+    </p>
+  </div>
+</section>
+`;
+
+exports[`Components render Correctly App render Correctly 1`] = `
+Array [
+  <nav>
+    <div
+      className="navbar-container"
+    >
+      <ul
+        className="navbar"
+      >
+        <div>
+          <h1
+            className="Math-Mag"
+          >
+            Math Magicions
+          </h1>
+        </div>
+        <div
+          className="li"
+        >
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/calculatorPage"
+              onClick={[Function]}
+            >
+              CalculatorPage
+            </a>
+          </li>
+          <li>
+            <a
+              href="/jokes"
+              onClick={[Function]}
+            >
+              Jokes
+            </a>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </nav>,
+  <section
+    className="homepage"
+  >
+    <div
+      className="top"
+    >
+      <h1>
+        Welcome to our page
+      </h1>
+      <p>
+        Welcome to our website, where you can find a simple calculator to make your calculations easy and quick. Our calculator has a user-friendly interface that is easy to use, even if you're not a math expert. It can perform basic arithmetic operations like addition, subtraction, multiplication, and division, as well as more complex calculations like percentages, square roots, and exponents.
+      </p>
+    </div>
+    <div
+      className="bottom"
+    >
+      <p>
+        In addition to our calculator, we also have a collection of inspiring quotes to brighten up your day. These quotes cover a variety of topics such as motivation, success, happiness, and more. We update our quotes regularly, so you can always find fresh inspiration whenever you visit our website.
+      </p>
+    </div>
+  </section>,
+]
+`;
+
+exports[`Components render Correctly App render Correctly 2`] = `
+<section
+  className="homepage"
+>
+  <div
+    className="top"
+  >
+    <h1>
+      Welcome to our page
+    </h1>
+    <p>
+      Welcome to our website, where you can find a simple calculator to make your calculations easy and quick. Our calculator has a user-friendly interface that is easy to use, even if you're not a math expert. It can perform basic arithmetic operations like addition, subtraction, multiplication, and division, as well as more complex calculations like percentages, square roots, and exponents.
+    </p>
+  </div>
+  <div
+    className="bottom"
+  >
+    <p>
+      In addition to our calculator, we also have a collection of inspiring quotes to brighten up your day. These quotes cover a variety of topics such as motivation, success, happiness, and more. We update our quotes regularly, so you can always find fresh inspiration whenever you visit our website.
+    </p>
+  </div>
+</section>
+`;
+
+exports[`Components render Correctly calculatorPage render Correctly 1`] = `
+Object {
+  "_Scheduler": Object {
+    "reset": [Function],
+    "unstable_IdlePriority": 5,
+    "unstable_ImmediatePriority": 1,
+    "unstable_LowPriority": 4,
+    "unstable_NormalPriority": 3,
+    "unstable_Profiling": null,
+    "unstable_UserBlockingPriority": 2,
+    "unstable_advanceTime": [Function],
+    "unstable_cancelCallback": [Function],
+    "unstable_clearYields": [Function],
+    "unstable_continueExecution": [Function],
+    "unstable_flushAll": [Function],
+    "unstable_flushAllWithoutAsserting": [Function],
+    "unstable_flushExpired": [Function],
+    "unstable_flushNumberOfYields": [Function],
+    "unstable_flushUntilNextPaint": [Function],
+    "unstable_forceFrameRate": [Function],
+    "unstable_getCurrentPriorityLevel": [Function],
+    "unstable_getFirstCallbackNode": [Function],
+    "unstable_next": [Function],
+    "unstable_now": [Function],
+    "unstable_pauseExecution": [Function],
+    "unstable_requestPaint": [Function],
+    "unstable_runWithPriority": [Function],
+    "unstable_scheduleCallback": [Function],
+    "unstable_setDisableYieldValue": [Function],
+    "unstable_shouldYield": [Function],
+    "unstable_wrapCallback": [Function],
+    "unstable_yieldValue": [Function],
+  },
+  "act": [Function],
+  "create": [Function],
+  "unstable_batchedUpdates": [Function],
+}
+`;
+
+exports[`Components render Correctly jokes render Correctly 1`] = `"something went wrong!"`;
+
+exports[`calculatorPage Test 1`] = `
+Object {
+  "_Scheduler": Object {
+    "reset": [Function],
+    "unstable_IdlePriority": 5,
+    "unstable_ImmediatePriority": 1,
+    "unstable_LowPriority": 4,
+    "unstable_NormalPriority": 3,
+    "unstable_Profiling": null,
+    "unstable_UserBlockingPriority": 2,
+    "unstable_advanceTime": [Function],
+    "unstable_cancelCallback": [Function],
+    "unstable_clearYields": [Function],
+    "unstable_continueExecution": [Function],
+    "unstable_flushAll": [Function],
+    "unstable_flushAllWithoutAsserting": [Function],
+    "unstable_flushExpired": [Function],
+    "unstable_flushNumberOfYields": [Function],
+    "unstable_flushUntilNextPaint": [Function],
+    "unstable_forceFrameRate": [Function],
+    "unstable_getCurrentPriorityLevel": [Function],
+    "unstable_getFirstCallbackNode": [Function],
+    "unstable_next": [Function],
+    "unstable_now": [Function],
+    "unstable_pauseExecution": [Function],
+    "unstable_requestPaint": [Function],
+    "unstable_runWithPriority": [Function],
+    "unstable_scheduleCallback": [Function],
+    "unstable_setDisableYieldValue": [Function],
+    "unstable_shouldYield": [Function],
+    "unstable_wrapCallback": [Function],
+    "unstable_yieldValue": [Function],
+  },
+  "act": [Function],
+  "create": [Function],
+  "unstable_batchedUpdates": [Function],
+}
+`;
+
+exports[`jokes test 1`] = `"something went wrong!"`;
